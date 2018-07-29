@@ -1,0 +1,24 @@
+.batch-on-click {
+  color: #3385FF;
+  cursor: pointer;
+}
+
+.in-order-batch-list {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  &:first-child {
+    border: 1px solid #F5F6FA;
+    height: 40px;
+    line-height: 40px;
+  }
+  &:nth-child(even) {
+    background: #FCFCFF;
+  }
+  > span {
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+  }
+}

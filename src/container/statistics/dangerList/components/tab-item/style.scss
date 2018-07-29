@@ -1,0 +1,37 @@
+.m-table-list-wrap {
+  tr.outList-tr {
+    height: 100px;
+  }
+  td.outList-td {
+    mix-width: 80px !important;
+    p {
+      &.customer {
+        padding-left: 35px;
+        text-align: left;
+      }
+      &.hang {
+        word-wrap: break-word !important;
+        word-break: break-all !important;
+        width:130px!important;
+        margin-left: 10px;
+        text-align:justify;
+      }
+      &.customer2 {
+        padding-left: 35px;
+        text-align: left;
+      }
+      &.owner3 {
+        padding-left: 35px;
+        text-align: left;
+        margin-bottom: 6px;
+      }
+      &.owner4 {
+        padding-left: 35px;
+        text-align: left;
+      }
+      &.margin {
+        margin: 10px 4px;
+      }
+    }
+  }
+}

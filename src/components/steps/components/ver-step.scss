@@ -1,0 +1,215 @@
+.after-clear-both {
+    &::after {
+        display: block;
+        content: '';
+        clear: both;
+    }
+}
+
+.m-step-item-ver {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-left: 90px;
+    @extend .after-clear-both;
+    &:first-child {
+        margin-top: 40px;
+    }
+    .m-step-time-wrap {
+        position: absolute;
+        left: 0;
+        top: -10px;
+        .time1 {
+            color: #666;
+            font-size: 14px;
+        }
+        .time2 {
+            color: #C2C2C2;
+            font-size: 12px;
+        }
+    }
+    .line-status {
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin: 0 20px;
+        padding: 0 0 0 10px;
+        &::after {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 1px;
+            height: 100%;
+            background: #E6E9F1;
+            content: '';
+        }
+        .status {
+            position: absolute;
+            left: -10px;
+            width: 20px;
+            height: 20px;
+            background: #3385ff;
+            z-index: 2;
+            &.status-type0, &.out-status0 {
+                background: url('./images/icon_flow_start1.png') no-repeat center/cover;
+                &.active {
+                    background: url('./images/icon_flow_start2.png') no-repeat center/cover;
+                }
+            }
+            &.status-type1, &.out-status1 {
+                background: url('./images/icon_flow_review1.png') no-repeat center/cover;
+                &.active {
+                    background: url('./images/icon_flow_review2.png') no-repeat center/cover;
+                }
+            }
+            &.status-type2 {
+                background: url('./images/icon_flow_receive1.png') no-repeat center/cover;
+                &.active {
+                    background: url('./images/icon_flow_receive2.png') no-repeat center/cover;
+                }
+            }
+            &.status-type3 {
+                background: url('./images/icon_flow_done2.png') no-repeat center/cover;
+            }
+            &.status-type4 {
+                background: url('./images/icon_flow_abnormal.png') no-repeat center/cover;
+            }
+            &.status-type9, &.out-status99 {
+                background: url('./images/icon_flow_cancel.png') no-repeat center/cover;
+            }
+
+            &.status-typenormal, &.out-statusnormal {
+                background: url('./images/icon_flow_point.png') no-repeat center center/10px 10px;
+            }
+
+            &.out-status2 {
+                background: url('./images/icon_flow_pick.png') no-repeat center/cover;
+                &.active {
+                    background: url('./images/icon_flow_pick2.png') no-repeat center/cover;
+                }
+            }
+            &.out-status3 {
+                background: url('./images/icon_flow_sign.png') no-repeat center/cover;
+                &.active {
+                    background: url('./images/icon_flow_sign2.png') no-repeat center/cover;
+                }
+            }
+            &.out-status4 {
+                background: url('./images/icon_flow_done.png') no-repeat center/cover;
+                &.active {
+                    background: url('./images/icon_flow_done2.png') no-repeat center/cover;
+                }
+            }
+            &.out-status5 {
+                background: url('./images/icon_flow_refuse.png') no-repeat center/cover;
+                &.active {
+                    background: url('./images/icon_flow_refuse2.png') no-repeat center/cover;
+                }
+            }
+            &.out-status6 {
+                background: url('./images/icon_flow_part.png') no-repeat center/cover;
+                &.active {
+                    background: url('./images/icon_flow_part2.png') no-repeat center/cover;
+                }
+            }
+            &.out-status7 {
+                background: url('./images/icon_flow_point.png') no-repeat center center/10px 10px;
+                &.active {
+                    background: url('./images/icon_flow_abnormal.png') no-repeat center/cover;
+                }
+            }
+            &.out-status9 {
+                background: url('./images/icon_flow_delivery.png') no-repeat center/cover;
+                &.active {
+                    background: url('./images/icon_flow_delivery2.png') no-repeat center/cover;
+                }
+            }
+        }
+    }
+
+    &:last-child {
+        .line-status {
+            &::after {
+                height: 0;
+            }
+        }
+    }
+    .content {
+        width: 250px;
+        font-size: 14px;
+        color: #333333;
+        line-height: 20px;
+        margin-left: 12px;
+        padding-bottom: 30px;
+        .m-step-title {
+            margin-bottom: 16px;
+        }
+        .m-step-desc {
+            width: 100%;
+            margin: 0 0 14px 0;
+            i {
+                color: #999999;
+            }
+        }
+        .m-photo-list {
+            @extend .after-clear-both;
+            li {
+                float: left;
+                width: 66px;
+                height: 66px;
+                margin-right: 16px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .m-step-content {
+            color: #666;
+            margin-bottom: 14px;
+        }
+    }
+    .operation {
+        width: 100px;
+        overflow: hidden;
+        span {
+            font-size: 14px;
+            color: #999;
+            line-height: 20px;
+            &:last-child {
+                color: #333;
+            }
+        }
+    }
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.m-open-img-wrap {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 9999;
+    span {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        width: 40px;
+        height: 40px;
+        background: url('./images/closeImg-normal.png') no-repeat center/cover;
+        cursor: pointer;
+        &:hover {
+            background: url('./images/closeImg-hover.png') no-repeat center/cover;
+        }
+    }
+    &.block {
+        display: block;
+    }
+}
+

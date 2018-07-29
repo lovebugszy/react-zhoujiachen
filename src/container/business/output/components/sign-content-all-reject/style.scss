@@ -1,0 +1,18 @@
+.sign-content-all-wrap {
+    .sign-content-all-inner {
+        width: 1000px;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+    .input-wrap {
+        margin-bottom: 40px;
+        > span {
+            float: left;
+            margin-right: 10px;
+            > div {
+                float: left;
+                //display: inline-block;
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+.batch-on-click {
+    color: #3385FF;
+    cursor: pointer;
+}
+.goods-info{
+    padding: 0 40px;
+    text-align:left;
+    height:40px;
+    line-height:40px;
+    font-size:14px;
+    color:#333;
+}
+.store-info-batch-title {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #F5F6FA;
+    
+    > span {
+        float: left;
+        width: 10%;
+        height: 100%;
+        text-align: center;
+    }
+}
+.store-info-batch-list {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    
+    &:nth-child(odd) {
+        background: #FCFCFF;
+    }
+    > span {
+        float: left;
+        width: 10%;
+        height: 100%;
+        text-align: center;
+        border-right: 1px solid #F5F6FA;
+        &:last-child{
+            border-right:0;
+        }
+    }
+}

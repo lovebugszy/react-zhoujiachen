@@ -1,0 +1,38 @@
+.single-owner-info {
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+    > .info-list {
+        float: left;
+        &:nth-child(1), &:nth-child(2) {
+            width: 30%;
+        }
+        &:nth-child(3) {
+            width: 40%;
+        }
+        > .info-item {
+            margin-bottom: 30px;
+            > span {
+                color: #333333;
+                &:first-child {
+                    display: inline-block;
+                    width: 80px;
+                    color: #999999;
+                    text-align: right;
+                }
+                &.double {
+                    width: 100px;
+                }
+            }
+        }
+    }
+
+    > .desc {
+        > span {
+            display: inline-block;
+            width: 80px;
+            text-align: right;
+            color: #999999;
+        }
+    }
+}

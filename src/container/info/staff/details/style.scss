@@ -1,0 +1,42 @@
+.m-output-detail-wrap {
+    width: 100%;
+    height: auto;
+    .steps-box-wrap {
+        position: relative;
+        width: 100%;
+        background: #fff;
+        border: 1px solid #E6E9F1;
+        padding: 18px 40px;
+        margin-bottom: 10px;
+    }
+    .m-output-detail-inner {
+        max-width: 1630px;
+        min-width: 1360px;
+        margin: 0 auto;
+        padding: 0 45px;
+    }
+
+    .output-detail-content {
+        width: 100%;
+        background: #fff;
+        
+    }
+    .details-table {
+        width: 100%;
+        padding: 30px 42px;
+        border-bottom: 1px dashed #e6e9f1;
+    }
+
+    .enterp-btn-group{
+        background:#fff;
+        text-align:center;
+        padding:40px 0 60px 0;
+        
+        .m-global-button{
+            display:inline-block;
+            line-height:36px;
+            width:600px;
+        }
+    }
+
+}

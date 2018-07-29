@@ -1,0 +1,71 @@
+.m-modal-wrap {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    display: none;
+    &.m-modal-block {
+        display: block;
+    }
+    .m-modal-inner {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%); /* IE 9 */
+        -moz-transform: translate(-50%, -50%); /* Firefox */
+        -webkit-transform: translate(-50%, -50%); /* Safari 和 Chrome */
+        -o-transform: translate(-50%, -50%); /* Opera */
+        height: 720px;
+        background: #fff;
+        border-radius: 5px;
+        padding-top: 48px;
+        padding-bottom: 30px;
+        h3 {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 48px;
+            line-height: 48px;
+            color: #729CDB;
+            text-align: center;
+            font-size: 16px;
+            border-bottom: 1px solid #F5F6FA;
+            cursor: pointer;
+            > span {
+                position: absolute;
+                right: 22px;
+                top: 17px;
+                width: 15px;
+                height: 15px;
+                background: url('./images/icon_exit_normal.png') no-repeat center/cover;
+                &:hover {
+                    background: url('./images/icon_exit_hover&click.png') no-repeat center/cover;
+                }
+            }
+        }
+        .m-modal-content {
+            width: 100%;
+            height: 100%;
+            overflow: scroll;
+        }
+    }
+    .m-modal-button-wrap {
+        width: 300px;
+        height: auto;
+        margin: 30px auto;
+        > .cancel {
+            border: 1px solid #D2D2D2;
+            background: #fff;
+            color: #666;
+            margin-right: 60px;
+        }
+    }
+}

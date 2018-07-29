@@ -1,0 +1,59 @@
+.m-global-button {
+    width: 80px;
+    height: 34px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin:0;
+    &.m-button-primary {
+        background: #3385FF;
+        border: 1px solid #3385FF;
+        box-shadow: 5px 0 12px rgba(7, 127, 255, 0.14);
+        color: #fff;
+        &:hover {
+            border: 1px solid #3385FF;
+            background: #5196fe;
+        }
+    }
+
+    &.m-button-default {
+        background: #fff;
+        border: 1px solid #3385FF;
+        color: #3385FF;
+        box-shadow: none;
+        &:hover {
+            border: 1px solid #5196fe;
+            color: #5196fe;
+        }
+    }
+    &.m-button-warn {
+        background: rgba(255, 138, 1, 1);
+        border-radius: 2px;
+        box-shadow: 5px 0 12px rgba(255, 138, 1, 0.14);
+        border: 1px solid #FF8A01;
+        color: #fff;
+        &:hover {
+            background: #ff9f2e;
+        }
+    }
+    &.m-button-error {
+        background: rgba(236, 98, 98, 1);
+        border-radius: 2px;
+        box-shadow: 5px 0 12px rgba(236, 98, 98, 0.14);
+        border: 1px solid rgba(236, 98, 98, 1);
+        color: #fff;
+        &:hover {
+            background: #ed7979;
+        }
+    }
+    &.m-button-success {
+        background: #39b526;
+        border-radius: 2px;
+        box-shadow: 5px 0 12px rgba(236, 98, 98, 0.14);
+        border: 1px solid #39b526;
+        color: #fff;
+        &:hover {
+            background: #65cc87;
+        }
+    }
+}

@@ -1,0 +1,67 @@
+.m-table-list-wrap {
+    tr.outList-tr {
+        height: 100px;
+    }
+    td.outList-td {
+        max-width: 145px;
+        p {
+            &.customer {
+                padding-left: 35px;
+                background: url('./images/icon_customer.png') no-repeat left 10px center/contain;
+                text-align: left;
+            }
+            &.customer2 {
+                padding-left: 35px;
+                text-align: left;
+            }
+            &.owner {
+                padding-left: 35px;
+                background: url('./images/icon_shipper.png') no-repeat left 10px center/contain;
+                text-align: left;
+                margin-bottom: 6px;
+            }
+            &.owner2 {
+                padding-left: 35px;
+                text-align: left;
+                background: url('./images/icon_ warehouse.png') no-repeat left 10px center/contain;
+            }
+            &.margin {
+                margin: 10px 4px;
+            }
+        }
+        .handle-icon {
+            font-size:0;
+            min-width:60px;
+            text-align:center;
+            .icon {
+                display:inline-block;
+                margin-right:10px;
+            }
+            .icon:last-child {
+                margin-right:0;
+            }
+            .icon-print {
+                width:20px;
+                height:21px;
+                background: url('./images/icon_print_normal.png') no-repeat center center/contain;
+                &:hover {
+                    background: url('./images/icon_print_hover&click.png') no-repeat center center/contain;
+                }
+            }
+            .icon-cancel {
+                width:20px;
+                height:20px;
+                background: url('./images/icon_cancel_normal.png') no-repeat center center/contain;
+                &:hover {
+                cursor:pointer;
+                    background: url('./images/icon_cancel_hover&click.png') no-repeat center center/contain;
+                }
+            }
+        }
+    }
+    .m-modal-wrap .m-modal-inner .m-modal-content {
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+    }
+}

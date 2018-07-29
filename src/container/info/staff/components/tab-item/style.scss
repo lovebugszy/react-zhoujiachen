@@ -1,0 +1,139 @@
+.m-table-list-wrap {
+    width: 100%;
+    height: auto;
+    table {
+        width: 100%;
+        thead {
+            background: #F5F6FA;
+        }
+        th {
+            height: 39px;
+            text-align: center;
+            vertical-align: middle;
+            border: 1px solid #e6e9f1;
+            color: #1D2639;
+            font-size: 14px;
+            font-weight: normal;
+            border-right-color: transparent;
+            &:last-child {
+                border-right-color: #e6e9f1;
+            }
+        }
+        .td {
+            height: 100px;
+            border: 1px solid #e6e9f1;
+            //word-wrap: break-word;
+            max-width: 200px;
+            .wrap {
+                width: 100%;
+                //max-width: 240px;
+            }
+            p {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                text-align: center;
+
+                &.left {
+                    text-align: left;
+                    padding-left: 10px;
+                }
+                &.left1 {
+                    padding-left: 30px;
+                    text-align: left;
+                    color: #666;
+                    &:nth-child(1) {
+                        color: #1D2639;
+                        background: url("./images/icon_customer.png") no-repeat left 6px center/20px 20px;
+                    }
+                }
+                &.left2 {
+                    float: left;
+                    width: 70%;
+                    padding-left: 30px;
+                    text-align: left;
+                    background: url("./images/icon_ warehouse.png") no-repeat left 6px center/20px 20px;
+                    color: #1D2639;
+                }
+                &.left3 {
+                    padding-left: 30px;
+                    text-align: left;
+                    background: url("./images/icon_shipper.png") no-repeat left 6px center/20px 20px;
+                    margin-bottom: 5px;
+                    color: #1D2639;
+                }
+                &.orange {
+                    color: #FF9205;
+                }
+                &.red {
+                    color: #FF0000;
+                }
+                &.reset{
+                    display:inline-block;
+                    cursor: pointer;
+                    width: 17px;
+                    height: 19px;
+                    background: url('./images/icon_reset_normal.png') no-repeat center/cover;
+                    margin:0 5px;
+                    vertical-align:top;
+                    &:hover {
+                        background: url('./images/icon_reset_hover&click.png') no-repeat center/cover;
+                    }
+                }
+                &.edit{
+                    display:inline-block;
+                    margin:0 5px;
+                    width:20px;
+                    height:20px;
+                    vertical-align:top;
+                }
+                &.edit a{
+                    display:inline-block;
+                    cursor: pointer;
+                    width: 19px;
+                    height: 18px;
+                    background: url('./images/icon_edit_normal.png') no-repeat center/cover;
+                    
+
+                    &:hover {
+                        background: url('./images/icon_edit_hover&click.png') no-repeat center/cover;
+                    }
+                }
+                &.forbidden{
+                    display:inline-block;
+                    cursor: pointer;
+                    width: 35px;
+                    height: 18px;
+                    background: url('./images/icon_forbid_normal.png') no-repeat center/cover;
+                    margin:0 5px;
+                    vertical-align:top;
+                    &:hover {
+                        background: url('./images/icon_forbid_hover.png') no-repeat center/cover;
+                    }
+                }
+            }
+        }
+        .forbid{
+            .td{
+                color:#BEC4D0;
+                .edit a{ 
+                    background: url('./images/icon_edit_unclick.png') no-repeat center/cover;
+                }
+                .reset{
+                    background: url('./images/icon_reset_unclick.png') no-repeat center/cover;
+                }
+                .forbidden{
+                    background: url('./images/icon_enable_normal.png') no-repeat center/cover;
+                    &:hover {
+                        background: url('./images/icon_enable_hover.png') no-repeat center/cover;
+                    }
+                }
+            }
+            
+        }
+        
+    }
+}
+.ant-modal.w300{
+    width:300px !important;
+}

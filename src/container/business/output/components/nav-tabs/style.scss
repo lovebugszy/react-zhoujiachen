@@ -1,0 +1,59 @@
+.m-sign-in-nav-wrap {
+    width: 100%;
+    padding: 45px 0 45px 0;
+    background: #fff;
+    border: 1px solid #e6e9f1;
+    .sign-nav-inner {
+        width: 880px;
+        height: 40px;
+        margin: 0 auto;
+        > span {
+            float: left;
+            line-height: 40px;
+            color: #666666;
+        }
+        ul {
+            float: left;
+            li {
+                line-height: 40px;
+                float: left;
+                font-size: 16px;
+                color: #333;
+                padding: 0 18px;
+                margin: 0 20px;
+                cursor: pointer;
+                &:nth-child(1) {
+                    background: url('./images/icon_sign1.png') no-repeat left 40px center/23px 24px;
+                }
+                &:nth-child(2) {
+                    background: url('./images/icon_sign2.png') no-repeat left 40px center/24px 22px;
+                }
+                &:nth-child(3) {
+                    background: url('./images/icon_sign3.png') no-repeat left 40px center/23px 24px;
+                }
+                &:nth-child(4) {
+                    background: url('./images/icon_sign4.png') no-repeat left 40px center/20px 20px;
+                }
+                &:hover {
+                    background-color: #E6EFFC;
+                }
+                > span {
+                    display: inline-block;
+                    width: 24px;
+                    height: 24px;
+                }
+                label {
+                    margin: 0;
+                    > span {
+                        font-size: 16px;
+                        color: #333;
+                        padding-left: 30px;
+                        &.ant-radio {
+                            padding-left: 3px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

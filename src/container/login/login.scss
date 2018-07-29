@@ -1,0 +1,59 @@
+.m-login-wrap {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-width: 1200px;
+    background: url('../../images/login_bg.png') no-repeat center/cover;
+    margin: 0 auto;
+    .m-login-inner {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 1200px;
+        height: 720px;
+        border-radius: 20px;
+        margin: auto;
+        background: #fff url('../../images/pic_left.png') no-repeat left top/contain;
+        overflow: hidden;
+    }
+    .m-logo {
+        display: block;
+        width: 201px;
+        height: 42px;
+        margin: 30px 0 162px 24px;
+        background: url('../../images/icon_logo.png') no-repeat center/cover;
+    }
+    .login-form-wrap {
+        float: right;
+        width: 540px;
+        height: 720px;
+        background: #fff;
+        .form-wrap {
+            padding: 0 76px;
+        }
+        .ant-row.ant-form-item {
+            height: 80px;
+            &:nth-child(2) {
+                height: 70px;
+            }
+        }
+        input:not(.m-global-button) {
+            height: 50px;
+            border-radius: 10px;
+            padding-left: 45px !important;
+
+        }
+        .m-login-button {
+            width: 100%;
+            height: 48px;
+            font-size: 16px;
+            border-radius: 10px;
+            box-shadow: 8px 0 14px rgba(51, 136, 255, 0.2);
+        }
+        .login-form-forgot {
+            float: right;
+        }
+    }
+}

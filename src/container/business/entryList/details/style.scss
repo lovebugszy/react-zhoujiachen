@@ -1,0 +1,54 @@
+.m-entry-detail-wrap {
+    width: 100%;
+    height: auto;
+    .m-entry-detail-inner {
+        max-width: 1630px;
+        min-width: 1360px;
+        margin: 0 auto;
+        padding: 0 45px;
+    }
+    .steps-box-wrap {
+        position: relative;
+        width: 100%;
+        height: auto;
+        background: #fff;
+        border: 1px solid #E6E9F1;
+        padding: 15px;
+        .details-btn {
+            position: absolute;
+            right: 41px;
+            top: 11px;
+            width: 49px;
+            height: 14px;
+            color: #3385FF;
+            background: url("../../../../images/btn_details_normal.png");
+            cursor: pointer;
+            &:hover {
+                background: url("../../../../images/btn_details_hover&click.png");
+            }
+        }
+    }
+    .entry-detail-content {
+        width: 100%;
+        background: #fff;
+        border: 1px solid #E6E9F1;
+        padding: 40px;
+        margin-top: 10px;
+        min-height: 540px;
+        .ant-table-tbody > tr > td {
+            height: 80px;
+            text-align: center;
+            color: #333333;
+        }
+        .goodsName {
+            width: 460px;
+            .goods-wrap {
+                text-align: left;
+                padding: 10px;
+            }
+            .desc-add {
+                color: #666666;
+            }
+        }
+    }
+}

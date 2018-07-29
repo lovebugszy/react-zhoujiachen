@@ -1,0 +1,105 @@
+.m-role-edit-wrap {
+    width: 100%;
+    height: auto;
+    .steps-box-wrap {
+        position: relative;
+        width: 100%;
+        background: #fff;
+        border: 1px solid #E6E9F1;
+        padding: 18px 40px;
+        margin-bottom: 10px;
+    }
+    .m-role-edit-inner {
+        max-width: 1630px;
+        min-width: 1360px;
+        margin: 0 auto;
+        padding: 0 45px;
+        padding-bottom:40px;
+    }
+
+    .role-edit-content {
+        width: 100%;
+        background: #fff;
+        border: 1px solid #E6E9F1;
+        .edit-role-info{
+            
+            .ant-form-item-label{
+                width:80px;
+                margin-right:30px;
+                vertical-align:top;
+            }
+            .ant-form-item-control-wrapper{
+                display:inline-block;
+                width:380px;
+                .tip{
+                    line-height:1;
+                    margin-top:10px;
+                    color:#666;
+                    font-size:14px;
+                    span{
+                        color:#3385FF;
+                    }
+                }
+            }
+            .ant-row{
+                margin-bottom:20px;
+            }
+            .ant-form-explain{
+                position:absolute;
+            }
+            .role-info-content{
+                clear:both;
+                border-bottom:1px dashed #E6E9F1;
+                padding: 34px 0 66px 80px;
+                font-size:0;
+                .role-con-info{
+                    display:inline-block;
+                    width:50%;
+                    vertical-align:top;
+                    .bor-l{
+                        border-left:1px solid #E6F0FE;
+                    }
+                    .ant-checkbox-group{
+                        .ant-checkbox-group-item {
+                            display:block;
+                            margin-bottom:20px;
+                        }
+                    }
+                    .ant-form-item{
+                        padding-left:30px;
+                    }
+                    .user-title,.cus-title{
+                        font-size:14px;
+                        color:#333;
+                        margin-bottom:39px;
+                        height:27px;
+                        line-height:27px;
+                        background: url('./images/icon_userinfo.png') no-repeat left center;
+                        background-size:26px 27px;
+                        padding-left:36px;
+                    }
+                    .cus-title{
+                       background: url('./images/icon_userpermission.png') no-repeat left center; 
+                    }
+                    .pr100{
+                        padding-right:70px;
+                    }
+                    .pl100{
+                        padding-left:70px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .btn-group{
+        background:#fff;
+        text-align:center;
+        padding:40px 0 60px 0;
+        /*border-top: 1px dashed #E6E9F1;*/
+        .m-global-button{
+            margin-right:60px;
+        }
+    }
+
+}

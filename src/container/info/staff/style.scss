@@ -1,0 +1,37 @@
+.m-entry-wrap {
+    .m-large-query-content {
+        width: 100%;
+        height: 100%;
+        .m-large-query-list {
+            span {
+                float: left;
+                cursor: pointer;
+                &.label {
+                    width: 70px;
+                    color: #999999;
+                    text-align: right;
+                }
+                &.type-item {
+                    margin: 0 12px;
+                    color: #666666;
+                }
+                &:hover {
+                    color: #3385FF;
+                }
+                &.active {
+                    color: #3385FF;
+                }
+            }
+        }
+    }
+    .m-entry-list-wrap {
+        width: 100%;
+        height: auto;
+        background: #fff;
+        padding: 21px 21px;
+        border: 1px solid #E6E9F1;
+    }
+    .page-wrap {
+        margin-top: 20px;
+    }
+}

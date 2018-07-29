@@ -1,0 +1,59 @@
+.m-404-wrap {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    user-select: none;
+    .m-404-inner {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%); /* IE 9 */
+        -moz-transform: translate(-50%, -50%); /* Firefox */
+        -webkit-transform: translate(-50%, -50%); /* Safari 和 Chrome */
+        -o-transform: translate(-50%, -50%); /* Opera */
+        > img {
+            display: block;
+            margin: 0 0 0 70px;
+        }
+        p {
+            text-align: center;
+            margin: 5px 0;
+        }
+        .line {
+            width: 678px;
+            height: 2px;
+            background: url("../../images/pic_line.png") no-repeat center/cover;
+        }
+        ul {
+            margin: 20px 0 60px 0;
+        }
+        li {
+            text-align: center;
+            font-size: 14px;
+            color: #BEC4D0;
+            &:nth-child(2), &:nth-child(3) {
+                padding-left: 98px;
+            }
+        }
+        .button-wrap {
+            width: 260px;
+            margin: 0 auto;
+            > div {
+                border-radius: 10px;
+                border: 1px solid #3385FF;
+                padding: 12px 24px;
+                float: left;
+                cursor: pointer;
+                &.reload {
+                    margin-right: 60px;
+                    color: #3385FF;
+                }
+                &.back {
+                    background: #3385FF;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

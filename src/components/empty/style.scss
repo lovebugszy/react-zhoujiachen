@@ -1,0 +1,16 @@
+.m-empty-wrap {
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    .m-empty-bg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 249px;
+        height: 261px;
+        background: url('./images/pic_empty.png') no-repeat center/cover;
+        margin: 100px auto;
+    }
+}

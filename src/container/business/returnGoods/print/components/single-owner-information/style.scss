@@ -1,0 +1,31 @@
+.single-owner-info {
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+  ul{
+    list-style:none;
+    padding-left:0;
+  }
+  ul li{
+    width:100%;
+    margin-top:20px;
+  }
+  ul li a{
+    text-decoration:none;
+    color:#000;
+    font-size:16px;
+    display:inline-block;
+  }
+  .info1 a{
+    width:200px;
+  }
+  .info2 a{
+    width:200px;
+  }
+  ul li a.wid{
+    width:450px !important;
+  }
+  ul li a.wids{
+    width:250px !important;
+  }
+}

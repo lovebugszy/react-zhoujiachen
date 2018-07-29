@@ -1,0 +1,89 @@
+.m-staff-detail-wrap {
+    width: 100%;
+    height: auto;
+    .steps-box-wrap {
+        position: relative;
+        width: 100%;
+        background: #fff;
+        border: 1px solid #E6E9F1;
+        padding: 18px 40px;
+        margin-bottom: 10px;
+    }
+    .m-staff-detail-inner {
+        max-width: 1630px;
+        min-width: 1360px;
+        margin: 0 auto;
+        padding: 0 45px;
+        padding-bottom:40px;
+    }
+
+    .staff-detail-content {
+        width: 100%;
+        background: #fff;
+        
+        .detail-staff-info{
+
+            .staff-info-content{
+                clear:both;
+                border-bottom:1px dashed #E6E9F1;
+                padding: 34px 0 66px 80px;
+                font-size:0;
+                .staff-con-info{
+                    display:inline-block;
+                    width:50%;
+                    height:420px;
+                    vertical-align:top;
+                    .bor-r{
+                        border-right:1px solid #E6F0FE;
+                    }
+                    
+                    .user-title,.cus-title{
+                        font-size:14px;
+                        color:#333;
+                        margin-bottom:39px;
+                        height:27px;
+                        line-height:27px;
+                        background: url('./images/icon_userinfo.png') no-repeat left center;
+                        background-size:26px 27px;
+                        padding-left:36px;
+                    }
+                    .cus-title{
+                       background: url('./images/icon_userpermission.png') no-repeat left center; 
+                    }
+                    .pr100{
+                        padding-right:100px;
+                    }
+                    .pl100{
+                        padding-left:100px;
+                    }
+                    .list-ul{
+                        padding-left:35px;
+                        li{
+                            height:34px;
+                            font-size:14px;
+                            color:#333;
+                            .label{
+                                display:inline-block;
+                                width:90px;
+                                text-align:right;
+                                color:#666;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+    
+    .btn-group{
+        background:#fff;
+        text-align:center;
+        padding:40px 0 60px 0;
+        /*border-top: 1px dashed #E6E9F1;*/
+        .m-global-button{
+            margin-right:60px;
+        }
+    }
+
+}

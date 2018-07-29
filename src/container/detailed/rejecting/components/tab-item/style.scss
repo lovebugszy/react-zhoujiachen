@@ -1,0 +1,33 @@
+.m-table-list-wrap {
+  tr.outList-tr {
+    height: 100px;
+  }
+  td.outList-td {
+    max-width: 145px;
+    p {
+      &.customer {
+        padding-left: 35px;
+        text-align: left;
+      }
+      &.customer2 {
+        padding-left: 35px;
+        text-align: left;
+      }
+      &.owner3 {
+        padding-left: 35px;
+        text-align: left;
+        margin-bottom: 6px;
+      }
+      &.owner4 {
+        padding-left: 35px;
+        text-align: left;
+      }
+      &.red {
+        color: #FA2812;
+      }
+      &.margin {
+        margin: 10px 4px;
+      }
+    }
+  }
+}

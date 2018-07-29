@@ -1,0 +1,176 @@
+.ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left {
+    border: none;
+}
+
+/*reset 表单样式*/
+.ant-input {
+    border: 1px solid #E6E9F1;
+}
+
+.ant-input:focus {
+    border-color: #3385ff;
+}
+
+.ant-input::-webkit-input-placeholder {
+    color: #bec4d0;
+}
+
+.ant-input::-moz-input-placeholder {
+    color: #bec4d0;
+}
+
+.ant-input:-ms-input-placeholder {
+    color: #bec4d0;
+}
+
+.ant-input:-o-input-placeholder {
+    color: #bec4d0;
+}
+
+.ant-calendar-range-picker-input::-webkit-input-placeholder {
+    color: #bec4d0;
+}
+
+.ant-calendar-range-picker-input::-moz-input-placeholder {
+    color: #bec4d0;
+}
+
+.ant-calendar-range-picker-input:-ms-input-placeholder {
+    color: #bec4d0;
+}
+
+.ant-calendar-range-picker-input:-o-input-placeholder {
+    color: #bec4d0;
+}
+
+.ant-calendar-input::-webkit-input-placeholder {
+    color: #bec4d0;
+}
+
+.ant-calendar-input::-moz-input-placeholder {
+    color: #bec4d0;
+}
+
+.ant-calendar-input:-ms-input-placeholder {
+    color: #bec4d0;
+}
+
+.ant-calendar-input:-o-input-placeholder {
+    color: #bec4d0;
+}
+
+.ant-input-affix-wrapper:hover .ant-input:not(.ant-input-disabled) {
+    border-color: #3385ff;
+}
+
+.has-error .ant-input-affix-wrapper .ant-input, .has-error .ant-input-affix-wrapper .ant-input:hover {
+    border-color: #f5222d;
+}
+
+.login-form-forgot {
+    color: #3385ff;
+}
+
+.ant-row {
+    margin: 0;
+}
+
+.ant-calendar-picker-input.ant-input {
+    height: 34px;
+}
+
+a {
+    color: #3385FF;
+}
+
+/**/
+.ant-pagination {
+    float: right;
+}
+
+.ant-pagination li {
+    float: left;
+}
+
+.ant-pagination .ant-pagination-item:focus, .ant-pagination .ant-pagination-item:hover {
+    border-color: #3385FF;
+    color: #3385FF;
+}
+
+.ant-pagination .ant-pagination-item-active {
+    border-color: #3385FF;
+    color: #3385FF;
+}
+
+.ant-table-thead > tr > th {
+    background: #F5F6FA;
+    height: 39px;
+    text-align: center;
+}
+
+.ant-table-bordered .ant-table-thead > tr > th {
+    border-right: none;
+    border-bottom: 1px solid #e6e9f1;
+}
+
+.ant-table-bordered .ant-table-thead > tr > th:last-child {
+    border-right: 1px solid #E6E9F1;
+}
+
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td {
+    padding: 0;
+}
+
+.ant-table-thead > tr.ant-table-row-hover > td,
+.ant-table-tbody > tr.ant-table-row-hover > td,
+.ant-table-thead > tr:hover > td,
+.ant-table-tbody > tr:hover > td {
+    background: transparent;
+}
+
+/*左侧导航栏*/
+
+#button-close,#button-open{width:20px;height: 60px;}
+.ant-menu-item > a {
+    display: block;
+    padding-left: 8px;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: #F5F6FA;
+}
+
+.ant-menu-vertical .ant-menu-item:after,
+.ant-menu-vertical-left .ant-menu-item:after,
+.ant-menu-vertical-right .ant-menu-item:after,
+.ant-menu-inline .ant-menu-item:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-left: 6px solid #3385FF;
+    border-right: none;
+}
+
+.ant-menu-item:active,
+.ant-menu-submenu-title:active {
+    background: #F5F6FA;
+}
+
+.ant-menu-item-selected > a,
+.ant-menu-item-selected > a:hover {
+    color: #3385FF;
+}
+
+/*上传*/
+.ant-upload.ant-upload-select-picture-card {
+    width: 160px;
+    height: 120px;
+    border: 1px dashed #3385FF;
+    background: #fff;
+}
+
+.ant-upload.ant-upload-select-picture-card:hover {
+    border: 1px dashed #3385FF;
+}

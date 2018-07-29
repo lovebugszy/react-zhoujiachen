@@ -1,0 +1,33 @@
+.m-tab-wrap {
+    width: 100%;
+    height: auto;
+    .m-tab-nav-list {
+        width: 100%;
+        overflow: hidden;
+        margin: 0;
+        .m-tab-nav-item {
+            height: 32px;
+            float: left;
+            padding: 0 24px;
+            color: #666;
+            font-size: 14px;
+            border-top: 1px solid #e6e9f1;
+            border-left: 1px solid #e6e9f1;
+            line-height: 32px;
+            cursor: pointer;
+            &:last-child {
+                border-right: 1px solid #e6e9f1;
+            }
+            &.m-tab-nav-active {
+                background: #3385ff;
+                color: #fff;
+                border-color: #3385ff;
+            }
+        }
+    }
+    .m-tab-content {
+        width: 100%;
+        min-height: 100px;
+        margin: 0;
+    }
+}

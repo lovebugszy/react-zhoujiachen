@@ -1,0 +1,34 @@
+.m-table-list-wrap {
+  tr.outList-tr {
+    height: 100px;
+  }
+  td.outList-td {
+    max-width: 145px;
+    p {
+      &.customer {
+        padding-left: 35px;
+        background: url('./images/icon_customer.png') no-repeat left 10px center/contain;
+        text-align: left;
+      }
+      &.customer2 {
+        padding-left: 35px;
+        text-align: left !important;
+      }
+      &.owner3 {
+        padding-left: 35px;
+        text-align: left !important;
+        margin-bottom: 6px;
+      }
+      &.owner4 {
+        padding-left: 35px;
+        text-align: left !important;
+      }
+      &.red {
+        color: #FA2812;
+      }
+      &.margin {
+        margin: 10px 4px;
+      }
+    }
+  }
+}

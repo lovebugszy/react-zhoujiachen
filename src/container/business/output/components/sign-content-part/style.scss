@@ -1,0 +1,35 @@
+.sign-content-part-wrap {
+    width: 100%;
+    height: 100%;
+    td {
+        text-align: center;
+        height: 100px;
+    }
+    .batchNum {
+        width: 100%;
+        height: 100%;
+        border: none;
+        &.focus {
+            border: 1px solid #3385FF;
+        }
+    }
+    ._m-input:focus, ._m-textarea:focus {
+        box-shadow: none;
+        border: 1px solid #3385FF;
+    }
+    .sign-content-part-inner {
+        > div.input-wrap {
+            width: 1000px;
+            margin: 0 auto 40px;
+            > span {
+                float: left;
+                line-height: 34px;
+                margin-right: 10px;
+                > div {
+                    float: left;
+                    //display: inline-block;
+                }
+            }
+        }
+    }
+}

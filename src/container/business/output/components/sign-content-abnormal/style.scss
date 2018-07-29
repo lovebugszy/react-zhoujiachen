@@ -1,0 +1,14 @@
+.sign-content-abnormal-wrap {
+    .sign-content-abnormal-inner {
+        width: 1000px;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+    .input-wrap {
+        margin-bottom: 40px;
+        > span {
+            float: left;
+            margin-right: 10px;
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.m-table-list-wrap {
+  tr.outList-tr {
+    height: 100px;
+  }
+  td.outList-td {
+    max-width: 145px;
+    p {
+      &.customer {
+        padding-left: 35px;
+        background: url('./images/icon_customer.png') no-repeat left 10px center/contain;
+        text-align: left;
+      }
+      &.customer2 {
+        padding-left: 35px;
+        text-align: left;
+      }
+      &.owner {
+        padding-left: 35px;
+        background: url('./images/icon_shipper.png') no-repeat left 10px center/contain;
+        text-align: left;
+        margin-bottom: 6px;
+      }
+      &.owner2 {
+        padding-left: 35px;
+        text-align: left;
+        background: url('./images/icon_ warehouse.png') no-repeat left 10px center/contain;
+      }
+      &.margin {
+        margin: 10px 4px;
+      }
+      &.del {
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+        background: url('./images/icon_cancel_normal.png') no-repeat center/cover;
+        margin: 0 auto;
+        &:hover {
+          background: url('./images/icon_cancel_hover&click.png') no-repeat center/cover;
+        }
+      }
+    }
+  }
+}

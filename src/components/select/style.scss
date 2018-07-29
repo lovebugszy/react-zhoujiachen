@@ -1,0 +1,88 @@
+.m-select-wrap {
+    position: relative;
+    width: 280px;
+    height: 34px;
+    background: #fff;
+    border: 1px solid #e6e9e1;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 0 10px;
+    display: inline-block;
+    &.focus {
+        border: 1px solid #3385ff;
+        outline: 0;
+        -webkit-box-shadow: 0 0 0 2px rgba(24, 144, 255, .2);
+        box-shadow: 0 0 0 2px rgba(24, 144, 255, .2);
+        border-right-width: 1px !important
+    }
+    .m-select-input-wrap {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+        > input {
+            color: transparent;
+            text-shadow: 0 0 0 #333;
+        }
+    }
+    input {
+        width: 100%;
+        height: 100%;
+    }
+    .m-arrow {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        margin-top: -2.5px;
+        width: 8px;
+        height: 5px;
+        background: url('./images/icon_drop.png') no-repeat center/cover;
+        transition: all 0.5s ease;
+        &.m-arrow-active {
+            transform: rotate(-180deg);
+        }
+    }
+    .m-select-list {
+        position: absolute;
+        left: 0;
+        top: 36px;
+        width: 100%;
+        height: 0;
+        border-radius: 5px;
+        padding: 0 10px;
+        max-height: 320px;
+        border: 1px solid transparent;
+        overflow: hidden;
+        background: transparent;
+        transition: all 0.3s ease;
+        opacity: 0.5;
+        z-index: 999;
+        > li {
+            width: 100%!important;
+            height: 42px;
+            line-height: 42px;
+            color: #666;
+            border-bottom: 1px solid #e6e9e1;
+            font-size: 14px;
+            cursor: pointer;
+            margin: 0!important;
+            &.m-select-item-empty {
+                text-align: center;
+            }
+            &:hover {
+                color: #3385ff;
+            }
+            &:last-child {
+                border: none;
+            }
+        }
+        &.m-select-open {
+            border: 1px solid #e6e9e1;
+            height: auto;
+            overflow: auto;
+            background: #fff;
+            opacity: 1;
+        }
+    }
+}

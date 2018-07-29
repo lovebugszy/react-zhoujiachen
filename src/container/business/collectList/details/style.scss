@@ -1,0 +1,227 @@
+.m-collect-detail-wrap {
+    width: 100%;
+    height: auto;
+    .m-collect-detail-inner {
+        width: 780px;
+        margin: 30px auto;
+        padding: 25px 60px 40px 60px;
+        box-shadow:2px 2px 6px rgba(51,133,255,0.16);
+    }
+
+    .collect-detail-content {
+        width: 100%;
+        background: #fff;
+        border: 1px solid #E6E9F1;
+    }
+    .red {
+        color: #F02626;
+    }
+    em{
+        font-style:normal;
+    }
+    .order-tit{
+        color:#999;
+        margin:30px 0 10px 0;
+    }
+    .list-ul {
+        li {
+            height:40px;
+            line-height:40px;
+            margin-bottom:10px;
+            padding:0 30px 0 13px;
+            background:#F7FAFE;
+            font-size:0;
+            span{
+                font-size:14px;
+                color:#333;
+                display:inline-block;
+                width:33.33%;
+                
+
+            }
+            span:nth-child(2){
+                    text-align:center;
+                }
+            span:last-child{
+                    text-align:right;
+                }
+        }
+    }
+    .list-ul-main{
+        font-size:0;
+        li{
+            margin-top:20px;
+            font-size:14px;
+            height:30px;
+            line-height:30px;
+            display:inline-block;
+            width:50%;
+            .p-label{
+                height:30px;
+                color:#999;
+            }
+            .p-text{
+                height:30px;
+                color:#333;
+            }
+            .icon-zhifubao{
+                padding-left:30px;
+                
+                background: url('./images/icon_zhifubao.png') no-repeat left center;
+                background-size:20px 20px;
+                vertical-align:top;
+            }
+            .icon-wechat{
+                padding-left:30px;
+                background: url('./images/icon_wechat.png') no-repeat left center;
+                background-size:20px 20px;
+                vertical-align:top;
+            }
+            .icon-cash{
+                padding-left:30px;
+                background: url('./images/icon_cash.png') no-repeat left center;
+                background-size:20px 20px;
+                vertical-align:top;
+            }
+            .icon-cash{
+                padding-left:30px;
+                background: url('./images/icon_cash.png') no-repeat left center;
+                background-size:20px 20px;
+                vertical-align:top;
+            }
+            .icon-card{
+                padding-left:30px;
+                background: url('./images/icon_card.png') no-repeat left center;
+                background-size:20px 20px;
+                vertical-align:top;
+            }
+            .icon-else{
+                padding-left:30px;
+                background: url('./images/icon_else.png') no-repeat left center;
+                background-size:20px 20px;
+                vertical-align:top;
+            }
+            &.img-content{
+                height:auto;
+                .img-box>span{
+                    display:inline-block;
+                    width:160px;
+                    height:120px;
+                    margin-right:20px;
+                    text-align:center;
+                    line-height:120px;
+                    .img-list{
+                        max-width:100%;
+                        max-height:100%;
+
+                    }
+                }
+            }
+        }
+    }
+    .receptAmount{
+        position:relative;
+        width:820px;
+        height:50px;
+        line-height:50px;
+        margin-left:-80px;
+        margin-top:40px;
+        background:#FFDEC1;
+        .left-icon,.right-icon{
+            position:absolute;
+            left:0;
+            top:50px;
+            width: 20px;
+            height: 13px;
+            background: url('./images/pic_triangle.png') no-repeat center/cover;
+            vertical-align:top;
+        }
+        .right-icon{
+            right:0;
+            left:auto;
+            top:50px;
+            background: url('./images/pic_triangle2.png') no-repeat center/cover;
+        }
+        .list-ul-recept{
+            width:700px;
+            margin:0 auto;
+            font-size:0;
+            li{
+                display:inline-block;
+                position:relative;
+                width:50%;
+                height:50px;
+                line-height:50px;
+                font-size:16px;
+                color:#FE7921;
+                span{
+                    position:absolute;
+                    left:0;
+                    top:0;
+                }
+            }
+            li:last-child{
+                font-size:28px;
+                span{
+                    position:absolute;
+                    right:0;
+                    top:0;
+                    text-align:right;
+                }
+            }
+        }
+    }
+
+
+
+    .list-bottom {
+        background:#fff;
+        padding: 20px 42px 40px;
+        .list-ul {
+            clear:both;
+            height: 100%;
+
+            li {
+                margin-bottom: 30px;
+                span.red{
+                color:#f00;
+                }
+                font-size:0;
+                div{
+                    display:inline-block;
+                    width:22%;
+                    &:last-child {
+                        width:70%;
+                    }
+                }
+            }
+            span {
+                font-size: 14px;
+                &:first-child {
+                    display: inline-block;
+                    width: 75px;
+                    text-align: right;
+                    color: #999;
+                }
+                &:last-child {
+                    color: #333333;
+                }
+            }
+
+        }
+        .li {
+            margin-bottom: 15px;
+            span {
+                font-size: 14px;
+                &:nth-child(1) {
+                    color: #666;
+                }
+                &.red {
+                    color: #F02626;
+                }
+
+            }
+        }
+    }
+
+}

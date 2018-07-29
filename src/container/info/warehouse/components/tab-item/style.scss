@@ -1,0 +1,94 @@
+.m-table-list-wrap.enterprise-list {
+    width: 100%;
+    height: auto;
+    table {
+        width: 100%;
+        thead {
+            background: #F5F6FA;
+        }
+        th {
+            height: 39px;
+            text-align: center;
+            vertical-align: middle;
+            border: 1px solid #e6e9f1;
+            color: #1D2639;
+            font-size: 14px;
+            font-weight: normal;
+            border-right-color: transparent;
+            &:last-child {
+                border-right-color: #e6e9f1;
+            }
+        }
+        .td {
+            height: 100px;
+            border: 1px solid #e6e9f1;
+            //word-wrap: break-word;
+            max-width: 200px;
+            .wrap {
+                width: 100%;
+                //max-width: 240px;
+            }
+            p {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                text-align: center;
+
+                &.left {
+                    text-align: left;
+                    padding-left: 10px;
+                }
+                
+                &.orange {
+                    color: #FF9205;
+                }
+                &.red {
+                    color: #FF0000;
+                }
+
+                &.del {
+                    cursor: pointer;
+                    display:inline-block;
+                    margin:0 5px;
+                    width: 15px;
+                    height: 19px;
+                    background: url('./images/icon_delete_normal.png') no-repeat center/cover;
+                    vertical-align:top;
+                    &:hover {
+                        background: url('./images/icon_delete_hover&click.png') no-repeat center/cover;
+                    }
+                }
+                &.edit{
+                    display:inline-block;
+                    margin:0 5px;
+                    width:20px;
+                    height:20px;
+                    vertical-align:top;
+                }
+                &.edit{
+                    display:inline-block;
+                    cursor: pointer;
+                    width: 19px;
+                    height: 18px;
+                    background: url('./images/icon_edit_normal.png') no-repeat center/cover;
+                    vertical-align:top;
+                    &:hover {
+                        background: url('./images/icon_edit_hover&click.png') no-repeat center/cover;
+                    }
+                }
+                &.reset{
+                    cursor: pointer;
+                    display:inline-block;
+                    margin:0 5px;
+                    width: 17px;
+                    height: 19px;
+                    background: url('./images/icon_reset_normal.png') no-repeat center/cover;
+                    vertical-align:top;
+                    &:hover {
+                        background: url('./images/icon_reset_hover&click.png') no-repeat center/cover;
+                    }
+                }
+            }
+        }
+    }
+}

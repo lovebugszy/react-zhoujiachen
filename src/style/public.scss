@@ -1,0 +1,29 @@
+@import './antd.css';
+
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}
+
+.text-overflow {
+    white-space: nowrap;
+    
+    text-overflow: ellipsis;
+}
+
+.details-btn {
+    position: absolute;
+    right: 41px;
+    top: 11px;
+    width: 49px;
+    height: 14px;
+    color: #3385FF;
+    background: url("../images/btn_details_normal.png");
+    cursor: pointer;
+    &:hover {
+        background: url("../images/btn_details_hover&click.png");
+    }
+}

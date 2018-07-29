@@ -1,0 +1,27 @@
+.single-orders-details {
+  width: 100%;
+  height: 202px;
+  border-bottom: 1px dashed #E6E9F1;
+  padding: 32px 50px;
+  .list-ul {
+    float: left;
+    height: 100%;
+    width: 22%;
+    li {
+      margin-bottom: 30px;
+    }
+    span {
+      font-size: 14px;
+      &:first-child {
+        display: inline-block;
+        width: 75px;
+        text-align: right;
+        color: #999;
+      }
+      &:last-child {
+        color: #333333;
+      }
+    }
+
+  }
+}
